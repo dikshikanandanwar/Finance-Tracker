@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { supabase } from '../supabase';
 import {
-  Edit3, Save, Target, Briefcase, PiggyBank,
+  Edit3, Target, PiggyBank,
   Zap, TrendingUp, ShieldCheck, X
 } from 'lucide-react';
 import { toast } from 'react-hot-toast';
@@ -259,5 +259,6 @@ const InfoPill = ({icon, label, text, bg, border}) => (
     </div>
   </div>
 );
+
 
 export default Profile;
