@@ -1,9 +1,0 @@
-google-generativeai
-fastapi
-uvicorn
-pydantic
-pandas
-numpy
-python-dotenv
-scikit-learn
-joblib
