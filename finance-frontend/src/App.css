@@ -88,11 +88,13 @@ body {
 }
 
 .logo-desktop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   font-size: 1.8rem;
   font-weight: 800;
   color: var(--primary);
   margin-bottom: 30px;
-  text-align: center;
 }
 
 .mobile-top-bar {
