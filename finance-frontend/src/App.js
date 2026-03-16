@@ -90,7 +90,7 @@ const ThemeToggleBtn = () => (
           
           {/* REMOVED inline display:flex so mobile CSS can hide this properly */}
           <div className="logo-desktop">
-             <span style={{ fontSize: '1.8rem', fontWeight: 900, color: 'var(--primary)', margin: 0 }}>Moctale</span>
+             <span style={{ fontSize: '1.8rem', fontWeight: 900, color: 'var(--primary)', margin: 0 }}>Finance Advisor</span>
              <ThemeToggleBtn />
           </div>
           
