@@ -46,11 +46,18 @@ function App() {
   const handleLogout = async () => { setShowLogoutModal(false); await supabase.auth.signOut(); };
 
   // BULLETPROOF THEME TOGGLE BUTTON
-  const ThemeToggleBtn = () => (
-    <button onClick={toggleTheme} className="theme-toggle-btn">
-      {theme === 'light' ? <Moon size={20} /> : <Sun size={20} />}
-    </button>
-  );
+const ThemeToggleBtn = () => (
+  <label className="theme-switch">
+    <input 
+      type="checkbox" 
+      checked={theme === 'dark'} 
+      onChange={toggleTheme} 
+    />
+    <span className="slider">
+      {theme === 'dark' ? <Moon size={14}/> : <Sun size={14}/>}
+    </span>
+  </label>
+);
 
   if (!session) {
     return (
