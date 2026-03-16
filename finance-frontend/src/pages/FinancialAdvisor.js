@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Send, Bot, User, Trash2 } from 'lucide-react';
+import { Send, Bot, Trash2 } from 'lucide-react';
 import { API_BASE_URL } from '../config';
 import { supabase } from '../supabase';
 import { toast } from 'react-hot-toast';
