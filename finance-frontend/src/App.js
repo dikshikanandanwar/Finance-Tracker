@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react
 import { supabase } from './supabase'; 
 import { LayoutDashboard, User, BookOpen, Sparkles, LineChart, PieChart, LogOut, Moon, Sun } from 'lucide-react';
 import { Toaster } from 'react-hot-toast'; 
-
+//comment
 import Dashboard from './pages/Dashboard';
 import Profile from './pages/Profile';
 import TestCorner from './pages/TestCorner';
